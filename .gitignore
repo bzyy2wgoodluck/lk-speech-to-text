@@ -1,0 +1,30 @@
+# 运行时与模型（体积大，绝不入库）
+models/
+env/
+ocr_libs/
+pip-cache/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 日志
+*.log
+
+# 转写产物
+*_transcript_*.md
+*_readable_*.md
+results/
+
+# 个人术语表：仓库只分发 glossary.example.txt
+references/glossary.txt
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

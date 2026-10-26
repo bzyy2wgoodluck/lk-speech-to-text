@@ -1,0 +1,5 @@
+faster-whisper>=1.2,<2
+imageio-ffmpeg>=0.5
+
+# 可选：只有 scripts/subtitles.py（字幕 OCR 对照）需要，其余功能不装也能用。
+# rapidocr-onnxruntime>=1.2
